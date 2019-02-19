@@ -1,0 +1,160 @@
+#denglubox{
+    height:866px;
+    #denglu-top{
+        height:126px;
+        .denglu-container{
+            height:126px;
+            width:990px;
+            margin:0 auto;
+            a{
+                line-height: 126px;
+            }
+        }
+    }
+    #denglu-center{
+        background: url("../images/17d6bcf50d9f4d00930b057ba76c2763.jpg") no-repeat -900px;
+        background-size: cover;
+        .denglu-container{
+            height:580px;
+            width:990px;
+            margin:0 auto;
+            #denglu{
+                height:460px;
+                width:380px;
+                background:white;
+                float:right;
+                margin-top:60px;
+                ul.zhuan{
+                    padding-top:45px;
+                    height:100px;
+                    box-sizing: border-box;
+                    margin-left: 80px;
+                    li{
+                        float:left;
+                        font-size: 20px;
+                        font-weight: bold;
+                        cursor:pointer;
+                    }
+                    li.active{
+                        color:red;
+                    }
+                    li:first-child{
+                        border-right:1px solid #999;
+                        padding-right: 35px;
+                    }
+                    li:last-child{
+                        padding-left: 30px;
+                    }
+
+                }
+                #denglu-center-bottom{
+                    position:relative;
+                    height:300px;
+                    .denglukuang{
+                        display:none;
+                        height:360px;  
+                        box-sizing: border-box;
+                        padding: 0 40px;
+                        position:absolute;
+                        left:0;
+                        top:0;
+                        input{
+                            height:42px;
+                            width:300px;
+                            box-sizing: border-box;
+                            border:1px solid #999;
+                            margin-bottom: 20px;
+                            padding-left: 8px;
+                        }
+                        .denglubutton{
+                            background:red;
+                            color:white;
+                            cursor:pointer;
+                        }
+                        a{
+                            color:#999;
+                            font-size: 12px;
+                            float:left
+                        }
+                        a:nth-of-type(2){
+                            float:right;
+                        }
+                        .zhuan2{
+                            margin-top:82px;
+                            float:right;
+                            li{
+                                float:left;
+                                cursor:pointer;
+                            }
+                            li:first-child{
+                                border-right:1px solid #999;padding-right: 8px;
+                            }
+                            li:last-child{
+                                padding-left: 8px;
+                            }
+                        }
+                    }
+                    .two{
+                        .zhuan2{
+                            margin-top:132px;
+                        }
+                    }
+                    .three{
+                        padding:0 80px;
+                        >span{
+                            display:block;
+                            width:162px;
+                            height:42px;
+                            border-radius: 22px;
+                            border:1px solid #888;
+                            margin-left: 28px;
+                            text-align: center;
+                            font-size: 16px;
+                            line-height: 42px;
+                            margin-top:20px;
+                            cursor:pointer;
+                        }
+                        a{
+                            display:block;
+                            width:183px;
+                            height:183px;
+                            background:red;
+                            margin-left: 18px;
+                            margin-bottom: 30px;
+                        }
+                        p{
+                            width:100%;
+                            text-align: center;
+                            font-size: 16px;
+                            line-height: 26px;
+                            span{
+                                color:red;
+                            }
+                        }
+                        p:nth-of-type(2){
+                            color:#999;
+                        }
+                    }
+                    .denglukuang:first-child{
+                        display:block;
+                    }
+                }
+            }
+        }
+    }
+    #denglu-bottom{
+        .denglu-container{
+            height:160px;
+            box-sizing: border-box;
+            padding-top: 50px;
+            p{
+                text-align: center;
+                line-height: 20px;
+                a{
+                    color:#666;
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,157 @@
+#denglubox {
+  height: 866px;
+}
+#denglubox #denglu-top {
+  height: 126px;
+}
+#denglubox #denglu-top .denglu-container {
+  height: 126px;
+  width: 990px;
+  margin: 0 auto;
+}
+#denglubox #denglu-top .denglu-container a {
+  line-height: 126px;
+}
+#denglubox #denglu-center {
+  background: url("../img/17d6bcf50d9f4d00930b057ba76c2763.jpg") no-repeat -900px;
+  background-size: cover;
+}
+#denglubox #denglu-center .denglu-container {
+  height: 580px;
+  width: 990px;
+  margin: 0 auto;
+}
+#denglubox #denglu-center .denglu-container #denglu {
+  height: 460px;
+  width: 380px;
+  background: white;
+  float: right;
+  margin-top: 60px;
+}
+#denglubox #denglu-center .denglu-container #denglu ul.zhuan {
+  padding-top: 45px;
+  height: 100px;
+  box-sizing: border-box;
+  margin-left: 80px;
+}
+#denglubox #denglu-center .denglu-container #denglu ul.zhuan li {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#denglubox #denglu-center .denglu-container #denglu ul.zhuan li.active {
+  color: red;
+}
+#denglubox #denglu-center .denglu-container #denglu ul.zhuan li:first-child {
+  border-right: 1px solid #999;
+  padding-right: 35px;
+}
+#denglubox #denglu-center .denglu-container #denglu ul.zhuan li:last-child {
+  padding-left: 30px;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom {
+  position: relative;
+  height: 300px;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .denglukuang {
+  display: none;
+  height: 360px;
+  box-sizing: border-box;
+  padding: 0 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .denglukuang input {
+  height: 42px;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+  margin-bottom: 20px;
+  padding-left: 8px;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .denglukuang .denglubutton {
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .denglukuang a {
+  color: #999;
+  font-size: 12px;
+  float: left;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .denglukuang a:nth-of-type(2) {
+  float: right;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .denglukuang .zhuan2 {
+  margin-top: 82px;
+  float: right;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .denglukuang .zhuan2 li {
+  float: left;
+  cursor: pointer;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .denglukuang .zhuan2 li:first-child {
+  border-right: 1px solid #999;
+  padding-right: 8px;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .denglukuang .zhuan2 li:last-child {
+  padding-left: 8px;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .two .zhuan2 {
+  margin-top: 132px;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .three {
+  padding: 0 80px;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .three > span {
+  display: block;
+  width: 162px;
+  height: 42px;
+  border-radius: 22px;
+  border: 1px solid #888;
+  margin-left: 28px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 42px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .three a {
+  display: block;
+  width: 183px;
+  height: 183px;
+  background: red;
+  margin-left: 18px;
+  margin-bottom: 30px;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .three p {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .three p span {
+  color: red;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .three p:nth-of-type(2) {
+  color: #999;
+}
+#denglubox #denglu-center .denglu-container #denglu #denglu-center-bottom .denglukuang:first-child {
+  display: block;
+}
+#denglubox #denglu-bottom .denglu-container {
+  height: 160px;
+  box-sizing: border-box;
+  padding-top: 50px;
+}
+#denglubox #denglu-bottom .denglu-container p {
+  text-align: center;
+  line-height: 20px;
+}
+#denglubox #denglu-bottom .denglu-container p a {
+  color: #666;
+}
+
+/*# sourceMappingURL=denglu-1.css.map */
